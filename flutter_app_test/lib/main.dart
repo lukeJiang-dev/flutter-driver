@@ -105,8 +105,8 @@ class _MyAppState extends State<MyApp> {
     );
   }
 
-  MyAppBar _appBar(BuildContext context) {
-    return MyAppBar(
+  AppBar _appBar(BuildContext context) {
+    return AppBar(
       leading: IconButton(
         icon: new Image.asset(
           Utils.getImgPath(Ids.icon_title_user),
